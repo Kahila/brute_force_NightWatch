@@ -14,4 +14,4 @@ In order to run this programe make sure you have *npm (node package manager)* ab
 
 1. go into the scrap directory and install the programs dependances.
 
-![alt text](https://github.com/Kahila/brute_force_NightWatch/tree/master/imges/img.png)
+![alt text](https://github.com/Kahila/brute_force_NightWatch/blob/master/imges/img.png)

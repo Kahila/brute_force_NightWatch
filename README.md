@@ -10,3 +10,8 @@ the programe is made up of two parts
 
 In order to run this programe make sure you have *npm (node package manager)* abd the *chrome browser*  installed and make sure that you have the *gcc compiler* installed but if you'e using linux or unix then you don't have to worry as those operating systems already have the gcc compiler.
 
+### Running the programe
+
+1. go into the scrap directory and install the programs dependances.
+Inline-style: 
+![alt text](https://github.com/Kahila/brute_force_NightWatch/tree/master/imges/Screenshot 2020-04-02 at 12.40.14.png)

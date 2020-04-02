@@ -16,4 +16,4 @@ In order to run this programe make sure you have *npm (node package manager)* ab
 
 ![alt text][logo]
 
-(https://github.com/Kahila/brute_force_NightWatch/tree/master/imges/Screenshot 2020-04-02 at 12.40.14.png)
+[logo] : https://github.com/Kahila/brute_force_NightWatch/tree/master/imges/Screenshot 2020-04-02 at 12.40.14.png

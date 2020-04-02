@@ -6,7 +6,7 @@
 /*   By: akalombo <akalombo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/13 10:28:51 by akalombo          #+#    #+#             */
-/*   Updated: 2020/04/01 10:40:15 by akalombo         ###   ########.fr       */
+/*   Updated: 2020/04/02 14:24:51 by akalombo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int     main(int argc, char **argv)
 	int     fd;
 	char    *line;
 	int     x = 1;
-    int     i = 0;
+    int     i = 1;
 	int		time = 101;
 	if (argc > 1)
 	{
@@ -36,7 +36,7 @@ int     main(int argc, char **argv)
 			if (x > 0)
 			{
 		//		printf("%s\n", line);
-            if (i > 5000)
+            if (i > 0)//set the number of passwrord to start from
             {
                 printf(".waitForElementVisible('.panel-heading')\n\t\t\t");
                 printf(".setValue(mainQueryInputSelector, userTest)\n\t\t\t");
@@ -44,7 +44,7 @@ int     main(int argc, char **argv)
                 printf(".click('%s')\n\n\t\t\t", argv[5]);
                 if ((i % 1000) == 0)
                    printf("browser\n\t\t\t");
-                if (i == 10000)
+                if (i == 10000)//password to end at
                     break;
             }
             i++;
